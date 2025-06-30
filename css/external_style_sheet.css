@@ -1,0 +1,275 @@
+/* general style rules */
+
+body    {
+    background-color: #BBBBBB;
+    background-image: url(../images/dumbell.png);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 300px;
+    overflow-x: hidden;
+}
+
+h1      {
+    font-size: 50px;
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 50%;
+    padding: 20px;
+    border: solid #000000 5px;
+    margin: 5px;
+    position: relative;
+    left: 25%
+}
+
+h2      {
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 50%;
+    padding: 5px;
+    border: solid #000000 2px;
+    margin: 20px;
+    position: relative;
+    left: 25%;
+    clear: both;
+}
+
+p       {
+    text-align: center;
+    margin: 20px;
+    background-color: #AAAAAA;
+    position: relative;
+    z-index: 20;
+}
+
+figcaption  {
+    display: table;
+    background-color: #AAAAAA;
+}
+
+/* style rules for tables */
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+th, td {
+    text-align: center;
+    padding: 4px;
+    border: 2px solid #000000;
+    font-weight: 50;
+}
+
+thead th, thead td    {
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+
+tbody th    {
+    background-color: #AAAAAA;
+}
+
+tbody td    {
+    background-color: #FFFFFF;
+}
+
+tfoot th, tfoot td    {
+    background-color: #777777;
+}
+
+/* promotional links, includes supplement products 
+and social media links for CBUM and Joey Swoll */
+
+.promotional_links  {
+    clear: both;
+    position: relative;
+    display: block;
+    text-align: center;
+    background-color: #AAAAAA;
+    width: 20%;
+    left: 41.5%;
+}
+
+/* homepage style rules */
+
+#greeting   {
+    font-size: 3em;
+    margin-bottom: 100px;
+    float: left;
+    width: 50%;
+    left: 10%;
+    background-color: transparent;
+    background-image: url(../images/old_paper.jpg);
+    background-repeat: no-repeat;
+}
+
+#shark_pic  {
+    position: relative;
+    left: 10%;
+}
+
+#arrow  {
+    color: #FFFFFF;
+    background-color: transparent;
+    font-size: 100px;
+    padding: 0;
+    margin: 100px;
+    text-align: center;
+}
+
+/* my background page style rules */
+
+#before_gym {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    padding-top: 10px;
+    padding-bottom: 250px;
+    z-index: 10;
+}
+
+#after_gym {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    padding-top: 10px;
+    padding-bottom: 250px;
+    z-index: 10;
+}
+
+/* my workouts page style rules */
+
+#gym_pic {
+    float: right;
+    padding-bottom: 10px;
+    z-index: 10;
+}
+
+#vibing_pic {
+    clear: both;
+    padding-bottom: 100px;
+    z-index: 10;
+}
+
+#push_day   {
+    color: #FF0000;
+    text-align: center;
+    list-style-position: inside;
+    background-color: #AAAAAA;
+} 
+#pull_day   {
+    color: #FFFF00;
+    text-align: center;
+    list-style-position: inside;
+    background-color: #AAAAAA;
+}
+#leg_day    {
+    color: #00FF00;
+    text-align: center;
+    list-style-position: inside;
+    background-color: #AAAAAA;
+}
+
+ul li       {font-size: 75%;}
+
+/* my experience with supplements page style rules */
+
+#protein_powder_paragraph   {
+    width: 50%;
+    float: left;
+    left: 10%;
+}
+
+#protein_powder_pic  {
+    position: relative;
+    left: 10%;
+}
+
+#pre-workout_paragraph   {
+    width: 50%;
+    float: left;
+    left: 10%;
+}
+
+#pre-workout_pic  {
+    position: relative;
+    left: 10%;
+}
+
+#creatine_paragraph   {
+    width: 50%;
+    float: left;
+    left: 10%;
+}
+
+#creatine_pic  {
+    position: relative;
+    left: 10%;
+}
+
+
+/* my diet page style rules */
+
+#my_diet_experience_paragraph   {
+    width: 50%;
+    float: left;
+    left: 10%;
+}
+
+#scale_pic  {
+    position: relative;
+    left: 10%;
+    margin: 20px;
+    margin-bottom: 600px;
+}
+
+/* my setbacks page style rules */
+
+#sprained_wrist_pic  {
+    float: left;
+}
+
+#sprained_ankle_pic {
+    float: right;
+}
+
+/* my inspirations page style rules */
+
+#cameron_paragraph   {
+    width: 50%;
+    float: left;
+    left: 10%;
+}
+
+#cameron_pic  {
+    position: relative;
+    left: 10%;
+}
+
+/* nav bar style rules */
+
+.nav_bar    {
+    background-color: #444455;
+    padding: 0px;
+    border: solid #222233 10px;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 30;
+}
+.nav_bar a       {
+    padding: 10px;
+    border: double #222233 10px;
+    margin: 10px;
+    float: left;
+}
+a:link      {color: #2222FF;text-decoration:none;}
+a:visited   {color: #9900FF;text-decoration:none;}
+a:hover     {color: #FF0000;text-decoration:underline;}
+a:active    {color: #FF0000;text-decoration:underline;}

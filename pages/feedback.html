@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Submit Feedback - Evan&apos;s Weightlifting Hub</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/external_style_sheet.css">
+    </head>
+    <body>
+        <h1>Submit Feedback</h1>
+        <p>I really hope you are enjoying my website. You can use the 
+            form below to give any feedback on your experiences with the 
+            site. Thank you!
+        <form id="feedback" method="post"
+        action="http://amgilder.wcit.cs.unh.edu/cgi-bin/test403">
+            
+            <p>How much are you enjoying the website right now?<br>
+                <input name="enjoyment_lvl" id="love" type="radio"
+                    value="love" checked>
+                <label for="love">I love it</label><br>
+                <input name="enjoyment_lvl" id="enjoy" type="radio"
+                    value="enjoy">
+                <label for="enjoy">I enjoy it</label><br>
+                <input name="enjoyment_lvl" id="dont_enjoy" type="radio"
+                    value="dont_enjoy">
+                <label for="dont_enjoy">I don&apos;t enjoy it</label><br>
+                <input name="enjoyment_lvl" id="hate" type="radio"
+                    value="hate">
+                <label for="hate">I hate it</label><br>
+
+            <p>Select all of the pages you&apos;ve learned 
+                something from<br>
+                <input name="homepage_learning" id="homepage_learning" type="checkbox">
+                <label for="homepage_learning">Homepage</label>
+                <input name="background_learning" id="background_learning" type="checkbox">
+                <label for="background_learning">My Background</label>                 
+                <input name="workouts_learning" id="workouts_learning" type="checkbox">
+                <label for="workouts_learning">My Workouts</label>
+                <input name="supplements_learning" id="supplements_learning" type="checkbox">
+                <label for="supplements_learning">My Experience with Supplements</label>   
+                <input name="diet_learning" id="diet_learning" type="checkbox">
+                <label for="diet_learning">My Diet</label>
+                <input name="setbacks_learning" id="setbacks_learning" type="checkbox">
+                <label for="setbacks_learning">My Setbacks</label>                   
+                <input name="inspirations_learning" id="inspirations_learning" type="checkbox">
+                <label for="inspirations_learning">My Inspirations</label></p>
+
+            <p>Did this page change how you will exercise in the future?<br>
+                <input name="change_for_future" id="definitely" type="radio"
+                    value="definitely" checked>
+                <label for="definitely">Definitely</label><br>
+                <input name="change_for_future" id="probably" type="radio"
+                    value="probably">
+                <label for="probably">Probably</label><br>
+                <input name="change_for_future" id="probably_not" type="radio"
+                    value="probably_not">
+                <label for="probably_not">Probably Not</label><br>
+                <input name="change_for_future" id="definitely_not" type="radio"
+                    value="definitely_not">
+                <label for="definitely_not">Definitely Not</label></p>
+
+            <p>What was your favorite page on the website?<br>
+                <label for="fav_page">Favorite Page:</label>
+                <select name="fav_page" id="fav_page">
+                    <option selected>Homepage</option>
+                    <option>My Background</option>
+                    <option>My Workouts</option>
+                    <option>My Experience with Supplements</option>
+                    <option>My Diet</option>
+                    <option>My Setbacks</option>
+                    <option>My Inspirations</option>
+                </select></p>
+            
+            <p>What is your favorite muscle to train in the gym?<br>
+                <label for="fav_page">Favorite Muscle:</label><br>
+                <select name="fav_muscle" id="fav_muscle" size="3">
+                    <option selected>Chest</option>
+                    <option>Shoulders</option>
+                    <option>Biceps</option>
+                    <option>Back</option>
+                    <option>Triceps</option>
+                    <option>Legs</option>
+                </select></p>
+
+            <p>Any other feedback you would like to give:<br>
+                <textarea name="other_feedback" rows="4" cols="80"></textarea></p>
+
+            <p><input type="submit" value="Submit Feedback"></p>
+            
+        </form>
+        <nav class="nav_bar">
+            <a href="../index.html">Homepage</a>
+            <a href="background.html">My Background</a>
+            <a href="workouts.html">My Workouts</a>
+            <a href="supplements.html">My Experience with Supplements</a>
+            <a href="dieting.html">My Diet</a>
+            <a href="setbacks.html">My Setbacks</a>
+            <a href="inspirations.html">My Inspirations</a>
+            <a href="mailto:evan.braley@unh.edu"
+            >Contact Me: evan.braley@unh.edu</a>
+        </nav>
+    </body>
+</html>
